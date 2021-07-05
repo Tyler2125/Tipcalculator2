@@ -57,9 +57,9 @@
             align-content: center;
             padding: 50px 10px 100px 20px;
             margin: 50px 50px 0px 50px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+            font-family:Verdana;
             text-align: center;
             border-radius: 10px;
             box-shadow: 10px 10px 10px 5px #171717;;}
-        
-    }
+            .form-button{font-family:Verdana, Geneva, Tahoma, sans-serif;}
+        }
