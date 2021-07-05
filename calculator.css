@@ -1,0 +1,65 @@
+/* For the form its self */
+.Tip-calculator{background-color: #BEAEE2;
+    width: 50%;
+    align-content: center;
+    padding: 100px 10px 250px 50px;
+    margin: 100px 50px 75px 350px;
+    font-family:cursive ;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px #171717;}
+    /* The form inputs */
+    .form-input{
+        width: 25%;
+        padding: 5px;
+        margin: 10px 5px 10px 15px;
+    position: relative;
+    border-radius: 5px;
+    padding:10px;
+    }
+    /* buttons on the form, such as the calculate button and the reset button */
+    .form-button{
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        background-color: #BEAEE2;
+        border: solid;
+        border-color: #A239EA;
+        font-family:cursive
+    
+    }
+    .form-button:hover{
+        background-color: blueviolet;
+        cursor:pointer;
+        animation-name: button-animation;
+        animation-duration: 4s;
+    }
+    
+    .result{
+        color: black;
+        margin-top:10px;
+    }
+    /* Animation for the form buttons */
+    @keyframes button-animation { 
+        0%{background-color: #7952B3;}
+        25%{background-color: #52006A;}   
+    
+    }
+    /* for the background */
+    body{
+        background-color: #BEAEE2;
+        color: #A239EA;
+        
+    }
+    /* for mobile devices */
+    @media(max-width:600px) {
+        .Tip-calculator{width: 70%;
+            align-content: center;
+            padding: 50px 10px 100px 20px;
+            margin: 50px 50px 0px 50px;
+            font-family:cursive ;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 5px #171717;;}
+        
+    }
