@@ -1,11 +1,38 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
-</head>
-<body>
-    <h1>Testing 123456789</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+Tip Calculator
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <div>
+        <form  id="tip-form"class="Tip-calculator"action="index.html" method="post">
+            <h1>Tip Calculator $</h1>
+            <!-- total bill -->
+            <label for="Bill">Please enter your total bill</label>
+            <br>
+            <input class="form-input" id="Bill"type="number" required placeholder="$"> <br>
+            <!-- people splitting the bill -->
+            <label for="split">How Many people are splitting the bill?</label> <br>
+            <input class="form-input" id="split" type="number" min="1" max="20" required placeholder=""> <br>
+            <!-- tip percentage -->
+            <label for="">Choose the percent you want to tip</label> <br>
+            <input  id="Tip"class="form-input" min="1" max="20" type="number" required placeholder="%"> <br>
+            <span id="result">
+            </span>
+            <footer>&#169 Tyler Bakker</footer>
+            <button class="form-button" onclick="tipCalculate()"type="button" value="submit">Calculate Tip</button>
+            <button class="form-button"onclick="resetFunction()"type="reset" value="reset">Reset</button>
+            
+        </form>
+    </div>
+<script src="Calculator.js" charset="utf-8"></script>    
 </body>
 </html>
